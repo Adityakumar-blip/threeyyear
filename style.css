@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300&display=swap');
+/* general styling */
+:root {
+    --smaller: 0.75;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+  }
+  
+  .container {
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: normal;
+    font-size: 5rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', sans-serif;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 0.5rem;
+  }
+
+  #buttons {
+    display: none;
+    padding-top: 3rem;
+  }
+
+  .gift {
+    margin: 1rem;
+    width: 10rem;
+    height: 2.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter Tight',sans-serif;
+  }
+
+  .gift:hover {
+    transform: scale(1.1);
+    animation: ease-in-out .1s;
+  }
+
+  .wish {
+    margin: 1rem;
+    width: 10rem;
+    height: 2.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Inter Tight',sans-serif;
+  }
+
+  .wish:hover {
+    transform: scale(1.1);
+    animation: ease-in-out .1s;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(3rem * var(--smaller));
+    }
+  
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+  
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+
+    
+  }
+  
