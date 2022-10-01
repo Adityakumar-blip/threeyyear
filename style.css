@@ -19,12 +19,12 @@
   
   body {
     align-items: center;
-    background-color: #423f3b;
+    background-color: #006d77;
     display: flex;
   }
   
   .container {
-    color: #ff6666;
+    color: #edf6f9;
     margin: 0 auto;
     text-align: center;
   }

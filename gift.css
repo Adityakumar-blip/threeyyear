@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Inter+Tight:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,17 +10,27 @@
   body {
     margin: 0;
     height: 100%;
+    background-color: #83c5be;
   }
 
   .like {
     text-align: center;
     padding-top: 3rem;
+    font-family: 'Euphoria Script', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .giftContainer {
+    background-color: #83c5be;
+    height: 100%;
   }
 
 .giftcard {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .gift-carousel {
