@@ -19,12 +19,12 @@
   
   body {
     align-items: center;
-    background-color: #000000;
+    background-color: #423f3b;
     display: flex;
   }
   
   .container {
-    color: #ffffff;
+    color: #ff6666;
     margin: 0 auto;
     text-align: center;
   }
@@ -92,6 +92,8 @@
     transform: scale(1.1);
     animation: ease-in-out .1s;
   }
+
+  
   
   @media all and (max-width: 768px) {
     h1 {
